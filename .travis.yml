@@ -6,10 +6,7 @@ branches:
   - master
 before_script:
   - npm install -g typescript
-install:
   - npm install
-script:
-  - npm run prepublishOnly
 deploy:
   provider: npm
   email: "eaz@acrylplatform.com"
