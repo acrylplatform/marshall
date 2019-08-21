@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "10"
+branches:
+  only:
+  - master
+install:
+  - npm install
+script:
+  - npm run prepublishOnly
+deploy:
+  provider: npm
+  email: "eaz@acrylplatform.com"
+  api_key: $AUTH_TOKEN
+  on:
+      branch: master
