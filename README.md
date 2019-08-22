@@ -12,7 +12,7 @@ Marshall can serialize and parse Acryl blockchain data structures
 
 ### Usage:
 ```javascript
-import { binary, json } from 'parse-serialize'
+import { binary, json } from '@acryl/marshall'
 
 const tx = {
   type: 10,
