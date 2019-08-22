@@ -1,11 +1,12 @@
 language: node_js
 node_js:
-  - "10"
+  - "9"
 branches:
   only:
   - master
 before_script:
   - npm install -g typescript
+  - npm install
 deploy:
   provider: npm
   email: "eaz@acrylplatform.com"
