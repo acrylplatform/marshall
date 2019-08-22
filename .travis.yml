@@ -4,12 +4,12 @@ node_js:
 branches:
   only:
   - master
-before_deploy:
-  - npm install -g typescript
-  - npm install
-deploy:
-  provider: npm
-  email: "eaz@acrylplatform.com"
-  api_key: $AUTH_TOKEN
-  on:
-      branch: master
+jobs:
+  include:
+    - stage: npm release
+      node_js: "10"
+      script: echo "Deploying to npm ..."
+      deploy:
+        provider: npm
+        email: "eaz@acrylplatform.com"
+        api_key: $AUTH_TOKEN
