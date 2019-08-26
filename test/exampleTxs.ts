@@ -6,7 +6,7 @@ export const issueTx = {
   fee: 100000000,
   senderPublicKey: '7GGPvAPV3Gmxo4eswmBRLb6bXXEhAovPinfcwVkA2LJh',
   timestamp: 1542539421434,
-  chainId: 87,
+  chainId: 65,
   proofs:
     ['TVMCuJAb52AqLZnJHsZoWhjmULk27hzbzy7n3LsrwivdsCQ6gQpn8TtVwYuYhAZVcCLkbm4yznGCgrV96spafcp'],
   id: '3TZ1AWMeVskdy96rNo9AiyegimGyDyXr55MbDTQX4ZXM',
@@ -33,7 +33,7 @@ export const transferTx = {
 export const reissueTx = {
   type: 5,
   version: 2,
-  chainId: 87,
+  chainId: 65,
   fee: 100000000,
   senderPublicKey: '7GGPvAPV3Gmxo4eswmBRLb6bXXEhAovPinfcwVkA2LJh',
   timestamp: 1542539421477,
@@ -48,7 +48,7 @@ export const reissueTx = {
 export const burnTx = {
   type: 6,
   version: 2,
-  chainId: 87,
+  chainId: 65,
   fee: 100000,
   senderPublicKey: '7GGPvAPV3Gmxo4eswmBRLb6bXXEhAovPinfcwVkA2LJh',
   timestamp: 1542539421523,
@@ -176,7 +176,7 @@ export const cancelLeaseTx = {
   fee: 100000,
   senderPublicKey: '7GGPvAPV3Gmxo4eswmBRLb6bXXEhAovPinfcwVkA2LJh',
   timestamp: 1542539421556,
-  chainId: 87,
+  chainId: 65,
   proofs:
     ['5yytwFhmSJhPoRViBKt8AjYkBLxHYxgrs9mSPs3khT4iFLzqbkyyAYu7qbPsJ4iut8BKFFADX2J6hfVwxNFkHTjo'],
   id: '656pBWMAPfVMu1gbSZ5dd5WTRQzWNo2phfJsD2rDBKfh',
@@ -189,7 +189,7 @@ export const aliasTx = {
   'sender': '3N5GRqzDBhjVXnCn44baHcz2GoZy5qLxtTh',
   'senderPublicKey': 'FM5ojNqW7e9cZ9zhPYGkpSP1Pcd8Z3e3MNKYVS5pGJ8Z',
   'fee': 100000,
-  chainId: 84,
+  chainId: 75,
   'timestamp': 1526910778245,
   'proofs': [
     '26U7rQTwpdma5GYSZb5bNygVCtSuWL6DKet1Nauf5J57v19mmfnq434YrkKYJqvYt2ydQBUT3P7Xgj5ZVDVAcc5k',
@@ -240,7 +240,7 @@ export const setScriptTx = {
   fee: 1000000,
   senderPublicKey: '7GGPvAPV3Gmxo4eswmBRLb6bXXEhAovPinfcwVkA2LJh',
   timestamp: 1542539421635,
-  chainId: 87,
+  chainId: 65,
   proofs:
     ['35x1Rphm1mr24ELJgpLP6dK3wMW7cG6nWsFUcMF3RvxKr3UjEuo4NfYnQf6MEanD7bxBdKDuYxbBJZYQQ495ax3w'],
   id: 'J8SBGZzSLybdsgpFjDNxVwB8mixkZoEJkgHya3EiXXPc',
@@ -266,7 +266,7 @@ export const setAssetScriptTx = {
   fee: 1000000,
   senderPublicKey: '7GGPvAPV3Gmxo4eswmBRLb6bXXEhAovPinfcwVkA2LJh',
   timestamp: 1542539421652,
-  chainId: 87,
+  chainId: 65,
   proofs:
     ['4ffQFcfv9NG8GtNB5c1yamFvEFoixvgYBHPmfwSAkZeVRiCwZvB2HWWiMcbiujGhWGxXnho37bWqELnQ6DBPCaj4'],
   id: '4ERUXALAziaWJ1Acsmpnfjgtv1ixHSWXRp5dBR837o4e',
