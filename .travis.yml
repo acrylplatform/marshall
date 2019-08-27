@@ -6,6 +6,7 @@ branches:
   - master
 script:
   - npm install
+  - npm test
 before_deploy:
   - npm install -g typescript
 jobs:
