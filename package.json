@@ -28,7 +28,7 @@
     "ts-node": "^8.0.2",
     "typescript": "^3.1.6",
     "webpack": "^4.30.0",
-    "webpack-cli": "^3.3.0"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "@types/base64-js": "^1.2.5",
